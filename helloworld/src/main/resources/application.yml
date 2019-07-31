@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+person:
+  name: 小明
+  age: 45
+  map: {aa: AA,bb: BB}
+  list: [a,b,c]
+  dog:
+    name: wang
+    age: 2
