@@ -1,7 +1,11 @@
 package wiki.lkm.helloworld.bean;
 
+import org.springframework.beans.factory.annotation.Value;
+
 public class Dog {
+    @Value("wang")
     private String name;
+
     private int age;
 
     public String getName() {
