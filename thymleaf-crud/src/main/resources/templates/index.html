@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h1>首页</h1>
+<h1 th:text="'你好'+ ${hello} +'欢迎你'"></h1>
+<span th:each="num:${list}">
+    <span th:text="${num}"></span>
+</span>
+</div>
+</body>
+</html>
